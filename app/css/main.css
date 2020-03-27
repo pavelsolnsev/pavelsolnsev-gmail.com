@@ -1,0 +1,214 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  color: #302a31;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  width: 170px;
+  color: #000;
+  text-decoration: none;
+  background-color: red;
+  padding: 5px 0;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  overflow: visible;
+  outline: none;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*------HEADER-------*/
+
+header {
+  background-image: url("../img/top-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #151515;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 36px;
+  left: 45px;
+}
+
+.phone {
+  color: #fff;
+  position: absolute;
+  top: 41px;
+  right: 89px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+}
+
+.phone .fa {
+  color: #555555;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.hamburger {
+  position: absolute;
+  right: 15px;
+  top: 26px;
+}
+
+.hamburger:hover {
+  opacity: inherit;
+}
+
+.hamburger .hamburger-box {
+  width: 34px;
+  height: 21px;
+}
+
+.hamburger .hamburger-box .hamburger-inner {
+  height: 2px;
+  width: 34px;
+  background-color: #fff;
+}
+
+.hamburger .hamburger-box .hamburger-inner::before,
+.hamburger .hamburger-box .hamburger-inner::after {
+  background-color: #fff;
+  height: 2px;
+  width: 34px;
+}
+
+.bottom-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  opacity: 0,15;
+}
+
+.bottom-menu .contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.bottom-menu .contact li:nth-child(2) {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.bottom-menu .contact .fa {
+  color: #555555;
+  margin-right: 10px;
+}
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+
+/* Small Devices, Tablets */
+
+/* Extra Small Devices, Phones */

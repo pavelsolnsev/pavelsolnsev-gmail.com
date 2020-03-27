@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Circe";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Circe-Regular.eot");
+  src: url("../fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe-Regular.woff") format("woff"), url("../fonts/Circe-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Circe-Bold.eot");
+  src: url("../fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe-Bold.woff") format("woff"), url("../fonts/Circe-Bold.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  font-family: "Circe", sans-serif;
+  overflow-x: hidden;
+  color: #302a31;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  text-align: center;
+}
+
+h2:after {
+  content: '';
+  width: 420px;
+  height: 2px;
+  background: #c1a067;
+  display: block;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  border: solid 1px #fff;
+  border: 1px solid #000;
+  width: 170px;
+  color: #000;
+  text-decoration: none;
+  background-color: red;
+  padding: 5px 0;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  overflow: visible;
+  outline: none;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid_plain {
+  padding: 0;
+}
+
+/*------HEADER-------*/
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+
+/* Small Devices, Tablets */
+
+/* Extra Small Devices, Phones */
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+
+/* Extra Small Devices, Phones */
+
+/* Small Devices, Tablets */
+
+/* Medium Devices, Desktops */
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+@media only screen and (min-width: 1200px) {
+  /**/
+}

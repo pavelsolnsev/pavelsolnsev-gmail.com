@@ -1,0 +1,179 @@
+@import "vars";
+@import "mixin";
+
+html, body {
+	height: 100%;
+}
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	color: #302a31;
+	//font-family: 'Roboto', sans-serif;
+	//font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.btn {	
+	display: inline-block;
+	width: 170px;
+	color: #000;
+	text-decoration: none;
+	background-color: red;
+	padding: 5px 0;
+	font-size: 12px;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+	margin-left: auto;
+	margin-right: auto;
+	&:hover {
+		color: #fff;
+	}
+}			
+
+b, strong {
+	font-weight: bold;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active 
+
+{
+	overflow: visible;
+  outline: none;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*------HEADER-------*/
+
+header {
+	background-image: url('../img/top-bg.jpg');
+	@include cover;
+	height: 100vh;
+	background-color: #151515;
+	color: #fff;
+}
+
+.logo {
+	position: absolute;
+	top: 36px;
+	left: 45px;
+}
+
+.phone {
+	color: #fff;
+	.fa {
+		color: #555555;
+		margin-right: 10px;
+		font-size: 22px;
+	}
+	position: absolute;
+	top: 41px;
+	right: 89px;
+	display: flex;
+	align-items: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 22px;
+}
+
+.hamburger {
+	position: absolute;
+	right: 15px;
+	top: 26px;
+	&:hover {
+		opacity: inherit;
+	}
+	.hamburger-box {
+		width: 34px;
+		height: 21px;
+		.hamburger-inner {
+			height: 2px;
+			width: 34px;
+			background-color: #fff;
+			&::before, &::after {
+				background-color: #fff;
+				height: 2px;
+				width: 34px;
+			}
+		}
+	}
+}
+
+.bottom-menu {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px 0;
+	opacity: 0,15;
+	.contact {
+		li:nth-child(2) {
+			font-family: 'Fira Sans', sans-serif;
+		}
+		display: flex;
+		justify-content: space-between;
+		.fa {
+			color: #555555;
+			margin-right: 10px;
+		}
+
+	}
+}
+
+
+
+@import "media";
+
